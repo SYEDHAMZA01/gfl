@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <title>GFL</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <link href="./assets/plugin/swiper-slider/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        .navbar {
+            position: fixed;
+            width: 100%;
+            text-decoration: 2s;
+            transition: all ease-in 1s;
+        } 
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg pt-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.png" class="img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./fleet-partners.html">Fleet Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./coverage-area.html">Coverage Area</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./join-us.html">Join Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- hero start -->
+    <section id="hero">
+        <div class="hero">
+            <div class="container">
+                <div class="row position-relative">
+                    <div class="col-12 d-flex flex-column align-items-center gap-5">
+                        <img src="./assets/images/banner-logo.png" alt="logo" class="img-fluid mt-5">
+                        <h4 class="hero-sub-title">We get it there</h4>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- our commitment start -->
+    <section id="our-commitment">
+        <div class="our-commitment bg-deliver">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="offset-xxl-1 col-xxl-5 col-lg-6">
+                        <h2 class="main-heading">Our Commitment to Excellence</h2>
+                        <p class="sub-title">Our journey began with a simple goal in mind: to redefine logistics and
+                            delivery services in the digital age. We understand that in today's fast-paced world, time
+                            is of the essence. That's why we've developed a wide range of solutions to meet your every
+                            need, from premium and standard deliveries to specialized bike, van, and truck deliveries,
+                            as well as comprehensive haulage services.</p>
+                    </div>
+                    <div class="offset-xxl-1 col-xxl-5 col-lg-6">
+                        <div class="text-lg-end text-center">
+                            <img src="./assets/images/our-commitment-vector.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our commitment end -->
+
+    <!-- estimated start -->
+    <section id="estimated-cost">
+        <div class="package">
+            <div class="container">
+                <div class="row align-items-center gy-5 flex-md-row-reverse">
+                    <div class="col-lg-6 text-lg-end">
+                        <img src="./assets/images/take-your-pkg.png" alt="img" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 pe-lg-5">
+                        <div class="contact-form text-white me-lg-4">
+                            <h4 class="title mb-4">Get Estimated Cost</h4>
+                            <form>
+                                <div class="mb-4">
+                                    <label for="pickup-location" class="form-label">Pickup Location</label>
+                                    <input type="text" class="form-control" id="pickup-location"
+                                        placeholder="Pickup Location Here">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="drop-location" class="form-label">Drop off Location</label>
+                                    <input type="text" class="form-control" id="drop-location"
+                                        placeholder="Drop off Location">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="drop-location" class="form-label">Delivery Medium</label>
+                                    <select class="form-select">
+                                        <option value="bike">Bike</option>
+                                        <option value="car">Car</option>
+                                        <option value="van">Van</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="location" class="form-label">Location</label>
+                                    <input type="text" class="form-control" id="location"
+                                        placeholder="Your Location Here">
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-4">Get Results</button>
+                                <div class="mb-4">
+                                    <label for="result" class="form-label">Result</label>
+                                    <textarea class="form-control" style="height: 100px;" name="result" id="result"
+                                        placeholder="Result" cols="30" rows="10"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- estimated end -->
+
+    <!-- package start -->
+
+    <section id="package">
+        <div class="package">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="./assets/images/take-your-pkg.png" alt="img" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="contact-form text-white ms-lg-4">
+                            <h4 class="title mb-4">Track Your Package</h4>
+                            <form>
+                                <div class="mb-4">
+                                    <label for="tracking-no" class="form-label">Tracking number</label>
+                                    <div class="input-group mb-4">
+                                        <input type="text" class="form-control" id="tracking-no"
+                                            placeholder="Tracking number">
+                                        <a href="#" class="input-group-text bg-white" id="basic-addon2">
+                                            <img src="./assets/images/arrow_circle_right.png" alt="icon"
+                                                clas="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="result" class="form-label">Result</label>
+                                    <textarea class="form-control" style="height: 100px;" name="result" id="result"
+                                        placeholder="Result" cols="30" rows="10"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- package end -->
+
+    <!-- Delivering start -->
+    <section id="delivering">
+        <div class="services bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="main-heading"><span class="divider-2 pb-4">Delivering Your World on Demand</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row services-cards mt-4 gy-5">
+                    <div class="col-md-6">
+                        <img src="./assets/images/service-img-1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card services-card">
+                            <div class="card-body p-3">
+                                <img src="./assets/images/service-5.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Send It, We Will Handle the Rest</h3>
+                                <p class="card-desc">Seamless logistics and delivery solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row services-cards mt-4 gy-5 flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <img src="./assets/images/service-img-2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card services-card">
+                            <div class="card-body p-3">
+                                <img src="./assets/images/service-6.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Your Trusted Partner in Delivering Excellence</h3>
+                                <p class="card-desc">Experience Swift, Secure and on-time deliveries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row services-cards mt-4 gy-5">
+                    <div class="col-md-6">
+                        <img src="./assets/images/service-img-3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card services-card">
+                            <div class="card-body p-3">
+                                <img src="./assets/images/service-7.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Delivering Convenience, One Package At a Time</h3>
+                                <p class="card-desc">Your choice logistics solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Delivering end -->
+
+
+    <!-- services start -->
+
+    <section id="services">
+        <div class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="main-heading">From Point <span class="divider-3 pb-4">A to Anywhere Else</span></h2>
+                    </div>
+                </div>
+                <div class="row services-cards row-cols-md-2 g-lg-5 gy-4 justify-content-center mt-4">
+                    <div class="col">
+                        <div class="card services-card style-2">
+                            <div class="card-body">
+                                <img src="./assets/images/services-1.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Streamlined Delivery for Everyone</h3>
+                                <p class="card-desc">Your deliveries, our responsibility. GFL makes it effortless for
+                                    individuals, businesses, and enterprises to send packages anywhere, anytime.
+                                    Experience logistics and delivery that's as easy as a click.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card services-card style-2">
+                            <div class="card-body">
+                                <img src="./assets/images/services-2.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Your Delivery Your Choice</h3>
+                                <p class="card-desc">Tailor your deliveries to fit your schedule. With our flexible
+                                    options, you can choose when and where you want your packages delivered. It's
+                                    logistics designed around your life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card services-card style-2">
+                            <div class="card-body">
+                                <img src="./assets/images/services-3.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Our Commitment to You</h3>
+                                <p class="card-desc">We take pride in our commitment to reliability, security, and
+                                    speed. Rest easy knowing your packages are in safe hands. Join thousands of
+                                    satisfied customers who trust us to deliver.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card services-card style-2">
+                            <div class="card-body">
+                                <img src="./assets/images/services-4.png" alt="services-img" class="img-fluid" />
+                                <h3 class="card-title">Elevate Your Business With GFL</h3>
+                                <p class="card-desc">Businesses, big and small, rely on us to streamline their logistics
+                                    operations. Discover how our cutting-edge technology can transform your business.
+                                    Unlock a new level of growth with GFL.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services end -->
+
+
+    <!-- partner start -->
+
+    <section id="partner">
+        <div class="partner">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6 px-0">
+                        <div class="partner-content position-relative p-3 pt-4">
+                            <h2 class="title">Partner With Us</h2>
+                            <p class="sub-title text-black">We are not just a logistics company; we are a community. GFL
+                                welcomes fleet owners and their dedicated riders to partner with us. Our mobile
+                                application provides unparalleled visibility and automated management, empowering you to
+                                optimize your operations and reach a broader customer base.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="contact-form">
+                            <h4 class="title mb-4">Join As a Fleet Owner / Rider</h4>
+                            <form>
+                                <div class="mb-4">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name Here">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email"
+                                        placeholder="username@gmail.com">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+156532323565">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="location" class="form-label">Location</label>
+                                    <input type="text" class="form-control" id="location"
+                                        placeholder="Your Location Here">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Join Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xxl-2"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partner end -->
+
+    <!-- our Logistics start -->
+
+    <section id="logistics">
+        <div class="logistics">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 d-flex flex-column gap-4 align-items-start">
+                        <h2 class="main-heading mb-2">Ready to Transform <span class="divider-2 pb-2">Your</span>
+                            Logistics?</h2>
+                        <p class="sub-title mb-2">Get Started with hassle free deliveries today.</p>
+                        <a href="#" class="btn btn-outline-primary d-flex align-items-center bg-white gap-2 mb-2">Download our <img
+                            src="./assets/images/btn-logo-dark.png" alt="logo" class="img-fluid"> App</a>
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="#"><img src="./assets/images/play-store.png" class="img-fluid" alt="img"></a>
+                                <a href="#"><img src="./assets/images/google-play.png" class="img-fluid" alt="img"></a>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-md-end text-center">
+                            <img src="./assets/images/logistics.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                    <!-- <div class="col-xxl-2"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our mission end -->
+
+    <!-- Coverage start-->
+    <section id="coverage">
+        <div class="coverage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1 class="main-heading"><span class="divider-2 pb-3">Coverage Area</span></h1>
+                        <p class="sub-title">We currently offer our services within Lagos State for now.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row"> 
+                            <div class="col-6 mb-3">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Lagos Mainland</li>
+                                    <li class="list-group-item">Ikeja</li>
+                                    <li class="list-group-item">Magodo I # II</li>
+                                    <li class="list-group-item">Festac</li>
+                                    <li class="list-group-item">Yaba</li>
+                                    <li class="list-group-item">Egbeda and more...</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Lagos Island</li>
+                                    <li class="list-group-item">Ikoyi</li>
+                                    <li class="list-group-item">Victoria Island</li>
+                                    <li class="list-group-item">Likki I & II</li>
+                                    <li class="list-group-item">Ajah</li>
+                                    <li class="list-group-item">Epe and more...</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Lagos Inland</li>
+                                    <li class="list-group-item">Iyana Oba</li>
+                                    <li class="list-group-item">Badagry</li>
+                                    <li class="list-group-item">Igando</li>
+                                    <li class="list-group-item">Ojo and more…</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="google-map rounded-4" style="width:100%;height:100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Coverage end-->
+
+    <!-- Testimonials start-->
+
+    <section id="testimonials">
+        <div class="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1 class="main-heading"><span class="divider-2 pb-3">Client Testimonials</span></h1>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="slider d-flex justify-content-center align-items-center gap-5">
+                            <div class="swiper-button-prev-unique">
+                                <img src="./assets/images/chevron-down-left.png" class="img-fluid" alt="icon">
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <img src="./assets/images/Ellipse 25.png" class="img-fluid" alt="img">
+                                            <div class="flex-grow-1 d-flex flex-column gap-3">
+                                                <h3 class="card-title">Hannah Schmitt</h3>
+                                                <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Cursus
+                                                    nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna
+                                                    eget
+                                                    nibh in
+                                                    turpis. </p>
+                                                <span class="date">May 8, 2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <img src="./assets/images/Ellipse 25.png" class="img-fluid" alt="img">
+                                            <div class="flex-grow-1 d-flex flex-column gap-3">
+                                                <h3 class="card-title">Hannah Schmitt</h3>
+                                                <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Cursus
+                                                    nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna
+                                                    eget
+                                                    nibh in
+                                                    turpis. </p>
+                                                <span class="date">May 8, 2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <img src="./assets/images/Ellipse 25.png" class="img-fluid" alt="img">
+                                            <div class="flex-grow-1 d-flex flex-column gap-3">
+                                                <h3 class="card-title">Hannah Schmitt</h3>
+                                                <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Cursus
+                                                    nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna
+                                                    eget
+                                                    nibh in
+                                                    turpis. </p>
+                                                <span class="date">May 8, 2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper-button-next-unique">
+                                <img src="./assets/images/chevron-down-right.png" class="img-fluid" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials end-->
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row text-white gy-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="d-flex flex-column align-items-start gap-2">
+                            <img src="./assets/images/logo-2.png" class="img-fluid footer-logo" alt="img">
+                            <!-- <h3 class="title">Deliver By GFL</h3> -->
+                            <p class="desc">10 Ashimi Close, Atunrase Estate, Gbagada, Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <ul class="footer-items">
+                            <li class="footer-item">Quick Links</li>
+                            <li class="footer-item"><a href="#">About Us</a></li>
+                            <li class="footer-item"><a href="#">Join Us</a></li>
+                            <li class="footer-item"><a href="#">FAQs</a></li>
+                            <li class="footer-item"><a href="#">Careers</a></li>
+                            <li class="footer-item"><a href="#">Contact Us</a></li>
+                            <li class="footer-item"><a href="#">Track Your Item</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <ul class="footer-items">
+                            <li class="footer-item">Legal</li>
+                            <li class="footer-item"><a href="#">Terms & Conditions</a></li>
+                            <li class="footer-item"><a href="#">Privacy Policy</a></li>
+                            <li class="footer-item"><a href="#">Cookies Policy</a></li>
+                            <li class="footer-item"><a href="#">Security Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <ul class="footer-items">
+                            <li class="footer-item">Follow Us</li>
+                            <li class="footer-item d-flex align-items-center gap-2 mb-1"><img
+                                    src="./assets/images/instagram.png" class="img-fluid" style="height: 18px;" alt="social-links"><a href="#"
+                                    class="text-white">@GFL</a></li>
+                            <li class="footer-item d-flex align-items-center gap-2 mb-1"><img
+                                    src="./assets/images/logos_facebook.png" class="img-fluid" style="height: 18px;" alt="social-links"><a
+                                    href="#" class="text-white">GFL</a></li>
+                                    <li class="footer-item"><a href="#"><img style="height: 40px;"
+                                        src="./assets/images/deliver-logo.png" class="img-fluid mb-1 rounded"
+                                        alt="social-links"></a>
+                            </li>
+                                    <li class="footer-item"><a href="#"><img style="height: 40px;"
+                                        src="./assets/images/google-play.png" class="img-fluid mb-1" alt="social-links"></a>
+                            </li>
+                            <li class="footer-item"><a href="#"><img style="height: 40px;"
+                                        src="./assets/images/play-store.png" class="img-fluid mb-1" alt="social-links"></a>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <p class="footer-bar">© 2023 Golden Fleet Logistics. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scroll-to-top"><img src="./assets/images/arrow_circle_up.png" alt="icon" class="img-fluid"></a>
+
+
+    <!-- script -->
+    <script src="./assets/js/bootstrape/bootstrap.bundle.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/plugin/swiper-slider/js/swiper-bundle.min.js"></script>
+    <script src="./assets/plugin/Easy-Google-Maps-Embedding-Plugin-With-jQuery-Mapify/dist/google-maps.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+            const navbar = document.querySelector('.navbar');
+
+            function handleScroll() {
+                if (window.scrollY > 100) {
+                    navbar.classList.add('bg-white');
+                    navbar.classList.remove('bg-transparent');
+                    navLinks.forEach(link => {
+                        link.classList.add("text-black");
+                        link.classList.remove("text-white");
+                    });
+                } else {
+                    navbar.classList.remove('bg-white');
+                    navbar.classList.add('bg-transparent');
+                    navLinks.forEach(link => {
+                        link.classList.add("text-white");
+                        link.classList.remove("text-black");
+                    });
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll);
+            window.addEventListener('load', handleScroll);
+        });
+
+
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical", // Set the direction to vertical
+            effect: "cards",
+            grabCursor: true,
+            navigation: {
+                nextEl: '.swiper-button-next-unique',
+                prevEl: '.swiper-button-prev-unique'
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+        $('.google-map').googleMaps({
+            key: 'AIzaSyBvNHeNggq-QhyqU258KYn4POzmLTK31DQ',
+            points: [{ 
+                lat: 6.52437607771337,
+                lng: 3.379176459099298,
+                marker: true,
+                title: 'Marker title',
+                infoWindow: 'Info window content',
+                marker: 'custom.png'
+            }],
+            zoom: 10
+        });
+    </script>
+</body>
+
+</html>
